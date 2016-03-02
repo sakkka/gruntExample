@@ -5,3 +5,7 @@
       grunt.loadNpmTasks('grunt-contrib-imagemin');     
       grunt.loadNpmTasks('grunt-contrib-sass');    
       grunt.loadNpmTasks('grunt-contrib-watch');
+      
+      image -> img (concat)
+      css -> global.css (compress)
+      javascript -> js (concat + uglify)
