@@ -15,5 +15,6 @@
       
       PC : ruby installer
       Mac or PC : gem install sass + nodejs (add to Path option !)
+      (sometimes npm install -g grunt-cli needed)
       
       $sudo grunt -> start default task
