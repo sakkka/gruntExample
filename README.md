@@ -1,11 +1,19 @@
 # gruntExample with all those features :
 
-      grunt.loadNpmTasks('grunt-contrib-concat');    
-      grunt.loadNpmTasks('grunt-contrib-uglify');  
-      grunt.loadNpmTasks('grunt-contrib-imagemin');     
-      grunt.loadNpmTasks('grunt-contrib-sass');    
-      grunt.loadNpmTasks('grunt-contrib-watch');
+      grunt-contrib-concat  
+      grunt-contrib-uglify
+      grunt-contrib-imagemin 
+      grunt-contrib-sass
+      grunt-contrib-watch
       
-      image -> img (concat)
+# how-to :
+
+      image -> img (imagemin)
       css -> global.css (compress)
       javascript -> js (concat + uglify)
+      watcher for js and css files
+      
+      PC : ruby installer
+      Mac or PC : gem install sass + nodejs (add to Path option !)
+      
+      $sudo grunt -> start default task
